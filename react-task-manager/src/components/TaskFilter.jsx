@@ -33,7 +33,7 @@ const TaskFilter = () => {
           placeholder="Search cards..."
           value={searchQuery}
           onChange={(e) => dispatch(setSearchQuery(e.target.value))}
-        />z
+        />
       </div>
 
       {/* Priority Filter Pills */}
